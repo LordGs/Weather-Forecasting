@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- font api-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- icon api -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbarContent">
+            <div class="input-container">
+                <i class="fa-solid fa-location-dot locinInput"></i>
+                <i class="fa-solid fa-magnifying-glass" id="getWeather"></i>
+                <input type="text" id="cityInput" placeholder="Enter city name">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="forecast">
+            <div id="today" class="card today-card">
+                <div class="todayMain">
+                    <div class="todayleft">
+                        <ul>
+                            <img id="countryFlag" src="" alt="Country Flag" style="width: auto; height: 30px; margin-right: 10px;">
+                            <h1 id="cityLabel">Location</h1>
+                        </ul>
+                        <p id="weatherSummary" style="margin-top: 10px; color: rgba(255, 255, 255, 0.674);">Weather summary here</p>
+                        <ul class="temp">
+                            <i class="fa-solid fa-temperature-three-quarters"></i>
+                            <h1 id="todayTemp">Temperature: 0°C</h1>
+                        </ul>
+                    </div>
+                    <ul class="dt">
+                        <img class="dayNighticon" id="dayNightIcon" alt="Day or Night Icon">
+                        <p id="todayDate">Today - Date</p>
+                    </ul>
+                </div>
+                <div class="todaySubContainer">
+                    <h4>Status</h4>
+                    <div class="todaySubMain">
+                        <ul>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p id="locName">Location</p>
+                        </ul>
+                        <ul>
+                            <i class="fa-solid fa-cloud"></i>
+                            <p id="todayDescription">Weather description</p>
+                        </ul>
+                        <ul>
+                            <i class="fa-solid fa-clock"></i>
+                            <p id="todayTime">Time: 00:00</p>
+                        </ul>
+                        <ul>
+                            <i class="fa-solid fa-droplet"></i>
+                            <p id="todayHumidity">Humidity: 0%</p>
+                        </ul>
+                        <ul>
+                            <i class="fa-solid fa-wind"></i>
+                            <p id="todayWind">Wind Speed: 0 m/s</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="otherDays" class="days-container">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
