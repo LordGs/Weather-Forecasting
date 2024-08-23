@@ -12,8 +12,6 @@ Welcome to the Weather Forecast Web App! This project provides a user-friendly i
 
 **Forecast**: Provides a 5-day weather forecast, including daily temperature and weather conditions.
 
-**Responsive Design**: Optimized for various screen sizes, ensuring a seamless experience on both desktop and mobile devices.
-
 **User Interaction**: Allows users to search for weather by city name and see relevant weather information immediately.
 
 ## Technologies Used
