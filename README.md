@@ -3,7 +3,8 @@
 
 Welcome to the Weather Forecast Web App! This project provides a user-friendly interface for checking current weather conditions and forecasts. Built with HTML, CSS, and JavaScript, it leverages the OpenWeatherMap API to deliver accurate weather information. The app allows users to enter a city name to retrieve real-time weather data, including temperature, humidity, wind speed, and a brief weather description.
 
-![sample1](https://github.com/user-attachments/assets/fdc9393c-6f4c-42eb-8cb0-8e40505d8c7b)
+![sample1](https://github.com/user-attachments/assets/a13fc064-2084-485b-a852-c682c67c1be5)
+
 
 ## Features
 
@@ -38,7 +39,8 @@ For any questions or feedback, you can reach out to your lrdvcgbs@gmail.com.
 
 ## SAMPLE IMAGES
 
+
 sample 1
-![sample1](https://github.com/user-attachments/assets/fdc9393c-6f4c-42eb-8cb0-8e40505d8c7b)
+![sample1](https://github.com/user-attachments/assets/c3733108-3925-4d11-ba78-0ae4a5be513f)
 sample 2
-![sample2](https://github.com/user-attachments/assets/b2724599-0258-4c6f-b41b-8be012bb810a)
+![sample2](https://github.com/user-attachments/assets/4f6a522c-1465-4e08-af3a-86c56822ca7c)
